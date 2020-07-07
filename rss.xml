@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2020 07:32:32 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[알고리즘 테스트 준비용 코딩 테스트 준비과정도 기록해놓자!  약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?]]></description><link>https://devcheolheon.github.io/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/README/</guid><content:encoded>&lt;h1&gt;알고리즘 테스트 준비용&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2020 07:41:47 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[알고리즘 테스트 준비용 코딩 테스트 준비과정도 기록해놓자!  약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?]]></description><link>https://devcheolheon.github.io/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/README/</guid><content:encoded>&lt;h1&gt;알고리즘 테스트 준비용&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;코딩 테스트 준비과정도 기록해놓자! &lt;/p&gt;
@@ -168,7 +168,7 @@
 &lt;li&gt;호텔 방배정 (+효율성)&lt;/li&gt;
 &lt;li&gt;징검다리 방 건너기 (+효율성)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2020/04/01/2019-internship-test/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[목차 배경 깃헙에 비밀번호 없이 접속하기 (ssh 사용법)  다른 레포에 github page 배포하기  1. 배경 gatsby…]]></description><link>https://devcheolheon.github.io/javascript/devlog/1/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/devlog/1/</guid><content:encoded>&lt;h2&gt;목차&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2020/04/01/2019-internship-test/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기]]></title><description><![CDATA[목차 배경 깃헙에 비밀번호 없이 접속하기 (ssh 사용법)  다른 레포에 github page 배포하기  1. 배경 gatsby…]]></description><link>https://devcheolheon.github.io/javascript/devlog/1/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/devlog/1/</guid><content:encoded>&lt;h2&gt;목차&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;배경&lt;/li&gt;
 &lt;li&gt;깃헙에 비밀번호 없이 접속하기 (ssh 사용법) &lt;/li&gt;
