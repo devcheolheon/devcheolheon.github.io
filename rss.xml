@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2020 08:27:31 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[알고리즘 테스트 준비용 코딩 테스트 준비과정도 기록해놓자!  약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?]]></description><link>https://devcheolheon.github.io/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/README/</guid><content:encoded>&lt;h1&gt;알고리즘 테스트 준비용&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2020 10:42:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[알고리즘 테스트 준비용 코딩 테스트 준비과정도 기록해놓자!  약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?]]></description><link>https://devcheolheon.github.io/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/README/</guid><content:encoded>&lt;h1&gt;알고리즘 테스트 준비용&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;코딩 테스트 준비과정도 기록해놓자! &lt;/p&gt;
@@ -6,7 +6,37 @@
 &lt;li&gt;약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/readme/</guid><content:encoded>&lt;h2&gt;카카오 코딩 테스트 준비&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 비밀지도 다트게임 캐시 셔틀버스 뉴스 클러스터링 프렌즈4블록 트래픽 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;비밀지도&lt;/li&gt;
+&lt;li&gt;다트게임&lt;/li&gt;
+&lt;li&gt;캐시&lt;/li&gt;
+&lt;li&gt;셔틀버스&lt;/li&gt;
+&lt;li&gt;뉴스 클러스터링&lt;/li&gt;
+&lt;li&gt;프렌즈4블록&lt;/li&gt;
+&lt;li&gt;트래픽&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2018/09/21/kakao-blind-recruitment-for2019-round-1/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 오픈채팅방 실패율 후보키 무지의 먹방 라이브 길 찾기 게임 매칭 점수 블록 게임 (아직 안품..) 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;오픈채팅방&lt;/li&gt;
+&lt;li&gt;실패율&lt;/li&gt;
+&lt;li&gt;후보키&lt;/li&gt;
+&lt;li&gt;무지의 먹방 라이브&lt;/li&gt;
+&lt;li&gt;길 찾기 게임&lt;/li&gt;
+&lt;li&gt;매칭 점수&lt;/li&gt;
+&lt;li&gt;블록 게임 (아직 안품..)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2018/09/21/kakao-blind-recruitment-for2019-round-1/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 문자열 압축 괄호변환 자물쇠와 열쇠 가사검색 기둥과 보 설치 외벽점검 블록이동하기 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;문자열 압축&lt;/li&gt;
+&lt;li&gt;괄호변환&lt;/li&gt;
+&lt;li&gt;자물쇠와 열쇠&lt;/li&gt;
+&lt;li&gt;가사검색&lt;/li&gt;
+&lt;li&gt;기둥과 보 설치&lt;/li&gt;
+&lt;li&gt;외벽점검&lt;/li&gt;
+&lt;li&gt;블록이동하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2019/10/02/kakao-blind-recruitment-2020-round1/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/readme/</guid><content:encoded>&lt;h2&gt;카카오 코딩 테스트 준비&lt;/h2&gt;
 &lt;h3&gt;준비하며 느낀점&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;일차는 통과해봐야지 그런 마음으로 카카오 코딩 테스트를 준비해보았다.&lt;/li&gt;
@@ -110,7 +140,15 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[터널 시뮬레이션 문제 아이디어 구조물 구조가 다양하고 그에 따라 이동할 수 있는 위치가 제한된다. 
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 크레인 인형 뽑기 튜플 불량 사용자 호텔 방배정 (+효율성) 징검다리 방 건너기 (+효율성) 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;크레인 인형 뽑기&lt;/li&gt;
+&lt;li&gt;튜플&lt;/li&gt;
+&lt;li&gt;불량 사용자&lt;/li&gt;
+&lt;li&gt;호텔 방배정 (+효율성)&lt;/li&gt;
+&lt;li&gt;징검다리 방 건너기 (+효율성)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2020/04/01/2019-internship-test/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[터널 시뮬레이션 문제 아이디어 구조물 구조가 다양하고 그에 따라 이동할 수 있는 위치가 제한된다. 
 이 때 구조물을 자료구조로 잘 표현하면 이동할때 조건문을 줄일 수 있다. 위 0 오른쪽 1 아래 2 왼쪽…]]></description><link>https://devcheolheon.github.io/samsung/1953/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/samsung/1953/README/</guid><content:encoded>&lt;h2&gt;터널 시뮬레이션 문제&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
@@ -140,119 +178,7 @@
 뭔가 이상하게 작동하는데 한참을 고민하다가.. 이 문제가 있었다 시뮬레이션 문제를 풀때는 방향을 조심하자!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 비밀지도 다트게임 캐시 셔틀버스 뉴스 클러스터링 프렌즈4블록 트래픽 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;비밀지도&lt;/li&gt;
-&lt;li&gt;다트게임&lt;/li&gt;
-&lt;li&gt;캐시&lt;/li&gt;
-&lt;li&gt;셔틀버스&lt;/li&gt;
-&lt;li&gt;뉴스 클러스터링&lt;/li&gt;
-&lt;li&gt;프렌즈4블록&lt;/li&gt;
-&lt;li&gt;트래픽&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2018/09/21/kakao-blind-recruitment-for2019-round-1/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 오픈채팅방 실패율 후보키 무지의 먹방 라이브 길 찾기 게임 매칭 점수 블록 게임 (아직 안품..) 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;오픈채팅방&lt;/li&gt;
-&lt;li&gt;실패율&lt;/li&gt;
-&lt;li&gt;후보키&lt;/li&gt;
-&lt;li&gt;무지의 먹방 라이브&lt;/li&gt;
-&lt;li&gt;길 찾기 게임&lt;/li&gt;
-&lt;li&gt;매칭 점수&lt;/li&gt;
-&lt;li&gt;블록 게임 (아직 안품..)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2018/09/21/kakao-blind-recruitment-for2019-round-1/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 크레인 인형 뽑기 튜플 불량 사용자 호텔 방배정 (+효율성) 징검다리 방 건너기 (+효율성) 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;크레인 인형 뽑기&lt;/li&gt;
-&lt;li&gt;튜플&lt;/li&gt;
-&lt;li&gt;불량 사용자&lt;/li&gt;
-&lt;li&gt;호텔 방배정 (+효율성)&lt;/li&gt;
-&lt;li&gt;징검다리 방 건너기 (+효율성)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2020/04/01/2019-internship-test/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기]]></title><description><![CDATA[목차 배경 깃헙에 비밀번호 없이 접속하기 (ssh 사용법)  다른 레포에 github page 배포하기  1. 배경 gatsby…]]></description><link>https://devcheolheon.github.io/javascript/devlog/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/devlog/a/</guid><content:encoded>&lt;h2&gt;목차&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;배경&lt;/li&gt;
-&lt;li&gt;깃헙에 비밀번호 없이 접속하기 (ssh 사용법) &lt;/li&gt;
-&lt;li&gt;다른 레포에 github page 배포하기 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;1. 배경&lt;/h3&gt;
-&lt;p&gt;gatsby로 깨작깨작 열심히 개발블로그를 만들었고
-이를 깃헙 페이지로 배포하려고 하는 중이었다. &lt;/p&gt;
-&lt;p&gt;생각없이 블로그를 그대로 따라서 배포했더니
-현제 래포의 마스터 브랜치를 배포용 파일들이 덮어버리는 일이 일어나고 말았다.
-(gh-page의 기본작동이 그런것이었다..)&lt;/p&gt;
-&lt;p&gt;소스 관리와 배포용 레포를 분리하고 싶어서 방법을 찾다가 관련해서
-배우게 된 내용들을 정리해 보았다. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;깃헙에 비밀번호 없이 접속하기 위한 ssh사용법&lt;/li&gt;
-&lt;li&gt;다른 레포에 배포하도록 하는 gh-pages의 옵션 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;2. 깃헙에 비밀번호 없이 접속하기 (SSH 사용법)&lt;/h3&gt;
-&lt;p&gt;맥의 경우 기본적으로 ssh key파일들은 아래 디렉터리에 저장되어 있다. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/.ssh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;다음 명령어로 key를 생성하는데 이메일은 깃계정에 등록된 이메일로 하자
-또한 key의 비밀번호를 설정할 수 있게 되어 있는데 없이 하는것이 편하다.  &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;   ssh-keygen -t rsa -b &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt; -C &lt;span class=&quot;token string&quot;&gt;&quot;my-email@example.com&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;생성된 파일중에서 .pub로 끝나는 파일의 값을
-git &gt; profile &gt; settings &gt; ssh and gps keys 메뉴에서
-설정해 준다. (값 내용을 복사해서 넣게끔 되어있다.)&lt;/p&gt;
-&lt;p&gt;실수로 ssh key를 생성할때 비밀번호를 등록해주었다면 다음 명령어로 없애줄 수 있다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; ssh-keygen -p&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;ssh key가 있어도 안되는 경우,
-내 경우에는 SSH-AGENT에 키를 등록하니 해결이 되었다. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ssh-agent 의 동작 확인&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;ssh-agent -s&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt; ssh-agent 에 key 등록하기 &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;3. 다른 레포에 github page 배포하기&lt;/h3&gt;
-&lt;p&gt;배포할때 개인 사이트 또는 특정 레포의 프로젝트 사이트 두 종류를 다른 방법으로 하게 된다. &lt;/p&gt;
-&lt;p&gt;개인 사이트는 [사용자명].github.io 로 레포를 만들어야 되고
-package.json에 다음처럼 명령어를 입력해준다. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
-&lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;만약, 소스레포와 배포레포가 다르다면 다음 부분에서 계정부분만 잘 변경해서
-package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 ssh설정을 잘 해줄 필요가 있다. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-       &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -r git@github.com:soharu/soharu.github.io.git -b master&quot;&lt;/span&gt;
- &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;배포 끝..&lt;/p&gt;
-&lt;h3&gt;출처&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://jootc.com/p/201905122827&quot;&gt;ssh 생성 및 github 저장소 저장하기 - JOOTC 블로그 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://goddaehee.tistory.com/254&quot;&gt;Git (7) Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://musma.github.io/2019/08/09/gatsby-js.html&quot;&gt;GatsbyJS 개발 환경 셋팅부터 GitHub Pages 배포까지 (musma 블로그)&lt;/a&gt;
-(배포하려고 할때 시작점이 되어준 고마운 블로그)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://soharu.github.io/posts/2019-09-18-Deploying-to-GitHub-Pages/&quot;&gt;Github Pages로 블로그 배포하기&lt;/a&gt;
-(어쩌다가 배포 레포와 소스 레포를 분리하신 분이고 딱 내가 필요한 과정을 그대로 진행한 블로그)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 문자열 압축 괄호변환 자물쇠와 열쇠 가사검색 기둥과 보 설치 외벽점검 블록이동하기 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;문자열 압축&lt;/li&gt;
-&lt;li&gt;괄호변환&lt;/li&gt;
-&lt;li&gt;자물쇠와 열쇠&lt;/li&gt;
-&lt;li&gt;가사검색&lt;/li&gt;
-&lt;li&gt;기둥과 보 설치&lt;/li&gt;
-&lt;li&gt;외벽점검&lt;/li&gt;
-&lt;li&gt;블록이동하기&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href=&quot;https://tech.kakao.com/2019/10/02/kakao-blind-recruitment-2020-round1/&quot;&gt;문제 해설&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[비밀지도 시뮬레이션 아이디어 이진수 배열을 잘 만들자 이진수 배열에 맞게 최종 지도를 잘 만들자 문제점]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/1/readme/</guid><content:encoded>&lt;h2&gt;비밀지도 시뮬레이션&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[비밀지도 시뮬레이션 아이디어 이진수 배열을 잘 만들자 이진수 배열에 맞게 최종 지도를 잘 만들자 문제점]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/1/readme/</guid><content:encoded>&lt;h2&gt;비밀지도 시뮬레이션&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;이진수 배열을 잘 만들자&lt;/li&gt;
@@ -263,6 +189,20 @@ package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 
 &lt;ul&gt;
 &lt;li&gt;파싱을 적절하게 하고&lt;/li&gt;
 &lt;li&gt;문제에 조건에 맞춰 점수를 잘 계산하자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[캐시, LRU정책을 만들어보자 아이디어 LRU정책을 어떻게 구현할까. 배열에서 사용할때마다, 방금 사용한 것을 배열의 맨 처음값으로 이동시킨다.
+안쓰일수록 배열의 끝으로 이동하게 되며, 주어진 배열의 길이에 맞춰 배열을 잘라주면 간이 LRU…]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/3/readme/</guid><content:encoded>&lt;h2&gt;캐시, LRU정책을 만들어보자&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;LRU정책을 어떻게 구현할까.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;배열에서 사용할때마다, 방금 사용한 것을 배열의 맨 처음값으로 이동시킨다.
+안쓰일수록 배열의 끝으로 이동하게 되며,&lt;/li&gt;
+&lt;li&gt;주어진 배열의 길이에 맞춰 배열을 잘라주면 간이 LRU정책이 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;문제점&lt;/h3&gt;
 &lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/4/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/4/readme/</guid><content:encoded>&lt;h2&gt;셔틀버스 타기&lt;/h2&gt;
@@ -300,21 +240,14 @@ package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 
 &lt;/li&gt;
 &lt;li&gt;잘 생각하면 조건을 간단하게 만들 수 있다.
 (물론 남의 코드를 보고 알긴 했지만.. )&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[캐시, LRU정책을 만들어보자 아이디어 LRU정책을 어떻게 구현할까. 배열에서 사용할때마다, 방금 사용한 것을 배열의 맨 처음값으로 이동시킨다.
-안쓰일수록 배열의 끝으로 이동하게 되며, 주어진 배열의 길이에 맞춰 배열을 잘라주면 간이 LRU…]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/3/readme/</guid><content:encoded>&lt;h2&gt;캐시, LRU정책을 만들어보자&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자카드 유사도 계산하기 아이디어 각 문자열에서 2씩 뽑아낸 집합에서 반복되는 것이 있을 때 교집합과 합집합 계산시 이 반복되는 것들을
+다루는 방법이 달라지는데, 이 부분만 잘 구현해서 넘어가면 별 다른 문제는 없었다. 문제점]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/5/readme/</guid><content:encoded>&lt;h2&gt;자카드 유사도 계산하기&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;LRU정책을 어떻게 구현할까.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;배열에서 사용할때마다, 방금 사용한 것을 배열의 맨 처음값으로 이동시킨다.
-안쓰일수록 배열의 끝으로 이동하게 되며,&lt;/li&gt;
-&lt;li&gt;주어진 배열의 길이에 맞춰 배열을 잘라주면 간이 LRU정책이 된다.&lt;/li&gt;
+&lt;li&gt;각 문자열에서 2씩 뽑아낸 집합에서 반복되는 것이 있을 때 교집합과 합집합 계산시 이 반복되는 것들을
+다루는 방법이 달라지는데, 이 부분만 잘 구현해서 넘어가면 별 다른 문제는 없었다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[프렌즈4블록 풀기 아이디어 터진 지점을 찾는 것과 터진 지점을 0으로 표시하는 작업을 나누어서 함 터진 지점이 서로 겹칠 수 있기 때문 이렇게 하면 찾는 로직을 더 간단하게 구현할 수 있음 0으로 표시하는 작업을 진행할때 터지는 갯수를 셈 문제점]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/6/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/6/readme/</guid><content:encoded>&lt;h2&gt;프렌즈4블록 풀기&lt;/h2&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[프렌즈4블록 풀기 아이디어 터진 지점을 찾는 것과 터진 지점을 0으로 표시하는 작업을 나누어서 함 터진 지점이 서로 겹칠 수 있기 때문 이렇게 하면 찾는 로직을 더 간단하게 구현할 수 있음 0으로 표시하는 작업을 진행할때 터지는 갯수를 셈 문제점]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/6/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/6/readme/</guid><content:encoded>&lt;h2&gt;프렌즈4블록 풀기&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -326,18 +259,7 @@ package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 
 &lt;/li&gt;
 &lt;li&gt;0으로 표시하는 작업을 진행할때 터지는 갯수를 셈&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[채팅방 로그 시뮬레이션 아이디어 name 딕셔너리 역할을 할 Object를 만들고 이를 활용함, 명령 배열을 종류별로 두번 나누어서 돌림 이름이 변경될 가능성이 있는 명령을 먼저 쭉 계산해서 가장 마지막에 변경되거나 입력한 nickname…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/1/readme/</guid><content:encoded>&lt;h2&gt;채팅방 로그 시뮬레이션&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;name 딕셔너리 역할을 할 Object를 만들고 이를 활용함,&lt;/li&gt;
-&lt;li&gt;명령 배열을 종류별로 두번 나누어서 돌림&lt;/li&gt;
-&lt;li&gt;이름이 변경될 가능성이 있는 명령을 먼저 쭉 계산해서 가장 마지막에 변경되거나 입력한 nickname 값을 가지도록함&lt;/li&gt;
-&lt;li&gt;그 다음 다시 출력할 명령들을 다시 순서대로 실행하며 출력 문자열 배열을 만듬&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;change뿐만 아니라 enter명령도 nickname을 바꿀수 있다는것,, 문제의 조건을 놓치지 말아야 함..&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[추석 트래픽 아이디어 부동소수점을 계산하는데 정확도 오차 같은것을 생각하는 것은 공포심을 유발하므로
+&lt;h3&gt;문제점&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[추석 트래픽 아이디어 부동소수점을 계산하는데 정확도 오차 같은것을 생각하는 것은 공포심을 유발하므로
 ms단위로 계산함 해설에 따르면 각 로그별로 시작시간 끝시간 기준으로 다른 로그 전체를 뒤져서
 최대값을 찾도록 하는데, 이는 O(N*N) 해설에서 o…]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/7/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/7/readme/</guid><content:encoded>&lt;h2&gt;추석 트래픽&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
@@ -366,6 +288,17 @@ ms단위로 계산함&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;아무리 자바스크립트가 에러를 던지지 않는다고 하더라도 0으로 나누는 경우는 잘 살펴보자
 ( 다행히 이 문제에서는 어떻게 할지 조건도 잘 주어져 있었음 )&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[채팅방 로그 시뮬레이션 아이디어 name 딕셔너리 역할을 할 Object를 만들고 이를 활용함, 명령 배열을 종류별로 두번 나누어서 돌림 이름이 변경될 가능성이 있는 명령을 먼저 쭉 계산해서 가장 마지막에 변경되거나 입력한 nickname…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/1/readme/</guid><content:encoded>&lt;h2&gt;채팅방 로그 시뮬레이션&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;name 딕셔너리 역할을 할 Object를 만들고 이를 활용함,&lt;/li&gt;
+&lt;li&gt;명령 배열을 종류별로 두번 나누어서 돌림&lt;/li&gt;
+&lt;li&gt;이름이 변경될 가능성이 있는 명령을 먼저 쭉 계산해서 가장 마지막에 변경되거나 입력한 nickname 값을 가지도록함&lt;/li&gt;
+&lt;li&gt;그 다음 다시 출력할 명령들을 다시 순서대로 실행하며 출력 문자열 배열을 만듬&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;change뿐만 아니라 enter명령도 nickname을 바꿀수 있다는것,, 문제의 조건을 놓치지 말아야 함..&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[후보키 아이디어 후보키의 가능한 조합을 조합 배열을 미리 만들어서 길이 순서대로 뽑아 놓고 하나하나 확인해본다. 후보키를 컬럼의 인덱스의 배열로 표현하는데 컬럼수에 따라 순서 상관없이 모든 조합의 종류를 놓고 만듬
 (예 : 0,1,2 … 0번째…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/3/readme/</guid><content:encoded>&lt;h2&gt;후보키&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
@@ -384,25 +317,20 @@ ms단위로 계산함&lt;/li&gt;
 &lt;li&gt;검사하려고 하는 후보키가 결과 집합 내에 부분집합을 가지고 있는지 검사하는 부분이 헷갈림
 ( 결과 집합내 후보키들 중 어떤 후보키의 모든 키 값이 검사하려는 후보키에 include 되어 있을때)&lt;/li&gt;
 &lt;li&gt;모든 조합, 모든 순열 후보를 만들어 내는 연습이 필요함&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자카드 유사도 계산하기 아이디어 각 문자열에서 2씩 뽑아낸 집합에서 반복되는 것이 있을 때 교집합과 합집합 계산시 이 반복되는 것들을
-다루는 방법이 달라지는데, 이 부분만 잘 구현해서 넘어가면 별 다른 문제는 없었다. 문제점]]></description><link>https://devcheolheon.github.io/kakao/2018_blind/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2018_blind/5/readme/</guid><content:encoded>&lt;h2&gt;자카드 유사도 계산하기&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[매칭 점수 계산하기 아이디어 특별한 아이디어는 없고, 주어진 기다란 html 스트링에서 필요한 값을 잘 추출해서
+점수들을 잘 계산해 내는 문제였다. 긴 html…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/6/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/6/readme/</guid><content:encoded>&lt;h2&gt;매칭 점수 계산하기&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;각 문자열에서 2씩 뽑아낸 집합에서 반복되는 것이 있을 때 교집합과 합집합 계산시 이 반복되는 것들을
-다루는 방법이 달라지는데, 이 부분만 잘 구현해서 넘어가면 별 다른 문제는 없었다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[트리 만들기 아이디어 node의 x y 좌표가 트리 조건에 맞게 주어지고 해당 x y 좌표에 따라 부모와 좌우 자식 관계가 결정됨 트리를 만들때 해당 영역에서 가장 y 값이 큰 값이 root고, root node의 좌 우 자식으로는
-root…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/5/readme/</guid><content:encoded>&lt;h2&gt;트리 만들기&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;node의 x y 좌표가 트리 조건에 맞게 주어지고 해당 x y 좌표에 따라 부모와 좌우 자식 관계가 결정됨&lt;/li&gt;
-&lt;li&gt;트리를 만들때 해당 영역에서 가장 y 값이 큰 값이 root고, root node의 좌 우 자식으로는
-root의 값 좌우 영역을 나누어서 또 다시 root를 찾게하는 재귀호출을 함&lt;/li&gt;
-&lt;li&gt;해설의 아이디어에 따르면 루트를 찾는 작업이 항상 작은 x에서 큰 x 범위로 가게끔 한다면,
-같은 y값 별로 큐를 만들고 해당 큐를 x값으로 정렬해서 빠르게 처리하게 할 수 있다고 해서 그렇게 함&lt;/li&gt;
+&lt;li&gt;특별한 아이디어는 없고, 주어진 기다란 html 스트링에서 필요한 값을 잘 추출해서
+점수들을 잘 계산해 내는 문제였다.&lt;/li&gt;
+&lt;li&gt;긴 html문자열에서 필요한 값을 추출해낼때 정규식으로 간단하고 파워풀하게 해결하자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;문제점&lt;/h3&gt;
-&lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[먹방 시뮬레이션 아이디어 각 음식의 양의 배열에서 음식의 양 별로 카운트 한 다음, 각 카운트를 음식의 양이 큰 값부터 누산해 주면
+&lt;ul&gt;
+&lt;li&gt;문제가 요구하는 바를 제대로 파악하고 뻘짓을 하지말자
+(이상한 파싱 코드를 짜는 일은 하지 말자)&lt;/li&gt;
+&lt;li&gt;그래도 기념으로 남겨둔 코드 ..&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[먹방 시뮬레이션 아이디어 각 음식의 양의 배열에서 음식의 양 별로 카운트 한 다음, 각 카운트를 음식의 양이 큰 값부터 누산해 주면
 i…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/4/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/4/readme/</guid><content:encoded>&lt;h2&gt;먹방 시뮬레이션&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
@@ -420,57 +348,96 @@ i 번째 회전에 흐르는 시간을 쉽게 계산해 낼수 있음&lt;/li&gt;
 &lt;li&gt;카운터가 1부터 시작하지 않는 경우, 음식의 총량이 1인 음식이 없는 경우 제대로 셈하지 않아 오류 발생&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[징검다리를 건널 수 있는 값 찾기 아이디어 풀이…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/5/readme/</guid><content:encoded>&lt;h2&gt;징검다리를 건널 수 있는 값 찾기&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[트리 만들기 아이디어 node의 x y 좌표가 트리 조건에 맞게 주어지고 해당 x y 좌표에 따라 부모와 좌우 자식 관계가 결정됨 트리를 만들때 해당 영역에서 가장 y 값이 큰 값이 root고, root node의 좌 우 자식으로는
+root…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/5/readme/</guid><content:encoded>&lt;h2&gt;트리 만들기&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;풀이 1&lt;/li&gt;
-&lt;li&gt;특정 값 징검다리를 건널수 있는 값을 제한범위 내에서 이진검색 알고리즘으로 찾는다.
-값을 먼저 찍어보고, 그 값을 토대로 그 값보다 작은지 큰지 알아내서 이진 검색 알고리즘으로 값을 좁혀내는 전략&lt;/li&gt;
-&lt;li&gt;풀이 2&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;카카오의 해설 페이지 O(N) 으로 해결해내는 방법도 있다고 하는데, 프로그래머스 내에 그렇게한 코드에 있다.&lt;br&gt;
-그 능력자의 코드를 그대로 복사해서 풀어보았다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;배열을 처음부터 끝까지 조회하는데&lt;/li&gt;
-&lt;li&gt;스택에 자기자신 보다 작은 값이 있을때에는 계속 pop한다.&lt;/li&gt;
-&lt;li&gt;이때 스택에 남아있는 것의 index와 자기자신의 index의 차이가 k(징검다리수)차이보다 클때에
-방금 팝한 값을 답과 비교한다. 그래서 작은 값을 답으로 매긴다.&lt;/li&gt;
-&lt;li&gt;그리고 자기 자신을 스택에 넣는다.&lt;/li&gt;
-&lt;li&gt;능력자의 코드를 보고 멘탈모델? 도데체 어떻게 이런 코드가 나올 수 있는지 분석해보았다.
-증명까지는 아니더라도 이게 돌아가는 원리를 파악해보자면,&lt;/li&gt;
-&lt;li&gt;오른쪽 돌로 갈수 있는 최소 값은 왼쪽 돌과 오른쪽돌의 index 차이가 k 이상일때의 중간돌의 값 중 최대값이다.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;스택에는 현재의 중간 돌보다 큰 값만 저장되도록 보장한다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;k 이상이 되는 시점의 중간 돌은 k 이하의 중간돌 중에서 최대값이다.
-조건에 맞게 중간돌의 값중 최대값을 찾는다.&lt;/li&gt;
-&lt;li&gt;k 를 초과했을때에 발견하게 되는 돌들 중에서는 최소값이다.
-답을 min으로 찾기 때문에 더 큰 답이 답이 될 수 없다.&lt;/li&gt;
-&lt;li&gt;오른쪽 돌 입장에서 k 이상일때의 중간돌 중 최대값이므로 현재 중간돌 보다
-작은 값들은 고려할 필요가 없다.
-(현재 중간돌보다 작은 값들은 이전 스텝에서 체크가 된 상황)&lt;/li&gt;
+&lt;li&gt;node의 x y 좌표가 트리 조건에 맞게 주어지고 해당 x y 좌표에 따라 부모와 좌우 자식 관계가 결정됨&lt;/li&gt;
+&lt;li&gt;트리를 만들때 해당 영역에서 가장 y 값이 큰 값이 root고, root node의 좌 우 자식으로는
+root의 값 좌우 영역을 나누어서 또 다시 root를 찾게하는 재귀호출을 함&lt;/li&gt;
+&lt;li&gt;해설의 아이디어에 따르면 루트를 찾는 작업이 항상 작은 x에서 큰 x 범위로 가게끔 한다면,
+같은 y값 별로 큐를 만들고 해당 큐를 x값으로 정렬해서 빠르게 처리하게 할 수 있다고 해서 그렇게 함&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;멘탈모델을 상상하기가 쉽지 않다. (로직을 생각해낸 배경? ) O(N)의 코드는 멘탈모델을
-어떻게 잡고 풀었는지, 푼 사람을 잡고 물어보고 싶은 심정이다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[매칭 점수 계산하기 아이디어 특별한 아이디어는 없고, 주어진 기다란 html 스트링에서 필요한 값을 잘 추출해서
-점수들을 잘 계산해 내는 문제였다. 긴 html…]]></description><link>https://devcheolheon.github.io/kakao/2019_blind/6/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_blind/6/readme/</guid><content:encoded>&lt;h2&gt;매칭 점수 계산하기&lt;/h2&gt;
+&lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[괄호 변환 아이디어 균형잡힌 괄호열뽑기, (을 +1 )을 -1로 해서 카운터에 더하다 최초로 0이 될때! 나머지는 주어진 신기한 알고리즘에 맞춰 구현 문제점 -]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/2/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/2/readme/</guid><content:encoded>&lt;h2&gt;괄호 변환&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;특별한 아이디어는 없고, 주어진 기다란 html 스트링에서 필요한 값을 잘 추출해서
-점수들을 잘 계산해 내는 문제였다.&lt;/li&gt;
-&lt;li&gt;긴 html문자열에서 필요한 값을 추출해낼때 정규식으로 간단하고 파워풀하게 해결하자&lt;/li&gt;
+&lt;li&gt;균형잡힌 괄호열뽑기, (을 +1 )을 -1로 해서 카운터에 더하다 최초로 0이 될때!&lt;/li&gt;
+&lt;li&gt;나머지는 주어진 신기한 알고리즘에 맞춰 구현&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[가사 검색 아이디어 trie라는 자료구조를 써보자 문제점 trie가 뭐지?]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/4/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/4/readme/</guid><content:encoded>&lt;h2&gt;가사 검색&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;trie라는 자료구조를 써보자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;문제점&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;문제가 요구하는 바를 제대로 파악하고 뻘짓을 하지말자
-(이상한 파싱 코드를 짜는 일은 하지 말자)&lt;/li&gt;
-&lt;li&gt;그래도 기념으로 남겨둔 코드 ..&lt;/li&gt;
+&lt;li&gt;trie가 뭐지?&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자물쇠와 열쇠 아이디어 키를 90도씩 회전하고 Lock을 기준으로 키가 이동 가능한 모든 범위내에서 키가 락을 푸는 지 검사.
+자물쇠 N, 열쇠 M (N >= M) 일때 최소한 한셀 은 겹치도록 하는 범위
+( - (M-1) <= diffx <= N-…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/3/readme/</guid><content:encoded>&lt;h2&gt;자물쇠와 열쇠&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;키를 90도씩 회전하고 Lock을 기준으로 키가 이동 가능한 모든 범위내에서 키가 락을 푸는 지 검사.
+자물쇠 N, 열쇠 M (N &gt;= M) 일때 최소한 한셀 은 겹치도록 하는 범위
+( - (M-1) &amp;#x3C;= diffx &amp;#x3C;= N-1 )
+( - (M-1) &amp;#x3C;= diffy &amp;#x3C;= N-1 )&lt;/li&gt;
+&lt;li&gt;자바스크립트의 이점? 배열에 저장되지 않은 인덱스를 조회할때, 에러가 아니라 undefined를 반환하는 것을
+적극적으로 활용해서 락을 푸는지 안푸는지 확인하는 코드를 간편하게 작성할 수 있었음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;키를 90 도 회전시킨 값을 구할때, deep copy하지 않는 실수&lt;/li&gt;
+&lt;li&gt;키로 자물쇠를 푸는 조건을 검사할때 배열의 row 먼저 정의 되어있는지 검사하는 것이 필요&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문자열 압축해보기 아이디어 문자열을 압축하려는 문자열갯수에 맞춰서 slice 하면서 같은지 안같은지 체크함 같으냐 다르냐에 따라 맞춰서 적절히 카운트함 문제점 while…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/1/readme/</guid><content:encoded>&lt;h2&gt;문자열 압축해보기&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;문자열을 압축하려는 문자열갯수에 맞춰서 slice 하면서 같은지 안같은지 체크함&lt;/li&gt;
+&lt;li&gt;같으냐 다르냐에 따라 맞춰서 적절히 카운트함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;while문을 빠져나오고 나서 한번 더 뭔가 체크해줘야할 필요가 있을때가 있다.
+이 경우에는 이전에 카운트하던 카운트값&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[기둥 보 설치 시뮬레이션 아이디어 복잡한 조건에 맞추어, 기둥과 보를 설치하고, 삭제하도록 함 문제점 조건이 꽤 복잡하게 주어질때는 먼저 간단한 노트에 정리를 좀 하고
+진정을 한 후 코딩을 시작하자]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/5/readme/</guid><content:encoded>&lt;h2&gt;기둥 보 설치 시뮬레이션&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;복잡한 조건에 맞추어, 기둥과 보를 설치하고, 삭제하도록 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;조건이 꽤 복잡하게 주어질때는 먼저 간단한 노트에 정리를 좀 하고
+진정을 한 후 코딩을 시작하자&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/6/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/6/readme/</guid><content:encoded>&lt;h2&gt;외벽 점검&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;뭔가 그리디하게 짧게 풀수 있는 방법을 찾아낼 수 있을것 같아서 고민하고 있으면 안됨&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;역시 조건을 보고 모든 가능한 조합과 순열을 구해서 (순서도 섞어줄 필요가 있다)
+각 해답이 문제를 해결해 내는지 풀어내야 함&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이때 문제의 조건에 맞추어서 시작점도 다 시도해봐야 하는데
+원탁테이블의 길이를 더해서 다시 배열에 넣어주어야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;실전에서 과연, 이게 그리디하게 짧게 풀수 없다는 걸 빨리 알아챌 수 있을까?&lt;/li&gt;
+&lt;li&gt;전체 조합과 순열을 뽑아내야 하는데, 해본적 없이 막상 해보려하면 막막할 수 있음..
+전체 순열을 어떻게 뽑지???..&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[블록 이동하기 아이디어 각 이동별, 회전별 상태를 체크하고 이동하며 목표점에 도달하자. visited…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/7/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/7/readme/</guid><content:encoded>&lt;h2&gt;블록 이동하기&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;각 이동별, 회전별 상태를 체크하고 이동하며 목표점에 도달하자.&lt;/li&gt;
+&lt;li&gt;visited를 현재 상태 값에 따라 체크하도록 함&lt;/li&gt;
+&lt;li&gt;각 회전별 체크 점을 최대한 배열에 잘 정리해서 넣어놓고 실수를 방지하자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;각 회전별 상태를 체크할때, 체크할게 귀찮을정도로 많고 실수가 자주 났다.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[배열로 튜플을 만드는 문제 아이디어 주어진 규칙 내에서 순서를 마음대로 섞은 배열이 주어지는데
 이 배열을 가지고 튜플을 찾아내는 것이 문제이다. 내가 구한 튜플을 A라고 하고 새로운 배열을 B라고 할때 A.length > B.length 일때는 A…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/2/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/2/readme/</guid><content:encoded>&lt;h2&gt;배열로 튜플을 만드는 문제&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
@@ -501,7 +468,33 @@ i 번째 회전에 흐르는 시간을 쉽게 계산해 낼수 있음&lt;/li&gt;
 차분하게 문제를 읽고 알고리즘을 생각해 보자&lt;/li&gt;
 &lt;li&gt;중괄호와 ,로만 구성된 문자열이 주어지는데 이 문자열을 문제를 풀수있게끔 재빠르게 파싱해내는 것도
 연습이 필요하다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[해시키 문제 아이디어 충돌시 linear probing으로 키를 찾는 로직이
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/1/readme/</guid><content:encoded>&lt;h2&gt;인형뽑기 시뮬레이션 문제&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;인형뽑기 기계 안을 컬럼크기의 배열로 만들고 각 원소를&lt;br&gt;
+스택으로 만든후 스택을 알맞게 인형으로 채우면 크레인 위치에따라 값을 뽑아오기가 매우 편리하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;실수 포인트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문제를 대충 읽으면, 터지는 횟수가 아니라 터진? 인형 갯수를 반환해야한다.
+터질때 +2를 해주자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/3/readme/</guid><content:encoded>&lt;h2&gt;템플릿에 맞는 문자 찾기&lt;/h2&gt;
+&lt;h3&gt;아이디어&lt;/h3&gt;
+&lt;p&gt;템플릿이 주어졌을때, 템플릿으로 바로 문제를 해결하는 게 아니라
+가능한 답안의 모든 수를 찾은 후&lt;/p&gt;
+&lt;p&gt;템플릿에 맞추어서 풀면 보다 간단하게 풀수 있는 문제 ( 해설에서 얻어낸 힌트)&lt;/p&gt;
+&lt;h3&gt;문제점&lt;/h3&gt;
+&lt;p&gt;역시 조건을 대충 읽고, 가능한 모든 답안의 수가
+충분히 미리 만들어 볼수 있는 수 인것을 알지 못하고
+바로 템플릿으로 풀어버리려고 덤벼드는 실수?&lt;/p&gt;
+&lt;p&gt;조건을 잘 읽어보자 조건에서 어떤 값들이 충분히 작은 수일때는
+이유? 힌트가 담겨 있을 수 있다.&lt;/p&gt;
+&lt;p&gt;모든 가능한 조합, 순열을 뽑아내는 연습이 필요하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[해시키 문제 아이디어 충돌시 linear probing으로 키를 찾는 로직이
 만약 굉장히 느려진다면 어떻게 해결할 것인가 빈 방을 찾기 위해 조회했던 모든 키에 최종적으로 찾은 키 값을 넣어주기 문제점 object…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/4/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/4/readme/</guid><content:encoded>&lt;h3&gt;해시키 문제&lt;/h3&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
 &lt;p&gt;충돌시 linear probing으로 키를 찾는 로직이
@@ -539,114 +532,106 @@ union-by-rank, path compression 기법을 사용한다.&lt;/p&gt;
     &lt;span class=&quot;token comment&quot;&gt;# path compression 기법&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; parent&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; node&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
         parent&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; find&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;parent&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; parent&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/3/readme/</guid><content:encoded>&lt;h2&gt;템플릿에 맞는 문자 찾기&lt;/h2&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; parent&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;node&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[징검다리를 건널 수 있는 값 찾기 아이디어 풀이…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/5/readme/</guid><content:encoded>&lt;h2&gt;징검다리를 건널 수 있는 값 찾기&lt;/h2&gt;
 &lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;p&gt;템플릿이 주어졌을때, 템플릿으로 바로 문제를 해결하는 게 아니라
-가능한 답안의 모든 수를 찾은 후&lt;/p&gt;
-&lt;p&gt;템플릿에 맞추어서 풀면 보다 간단하게 풀수 있는 문제 ( 해설에서 얻어낸 힌트)&lt;/p&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;p&gt;역시 조건을 대충 읽고, 가능한 모든 답안의 수가
-충분히 미리 만들어 볼수 있는 수 인것을 알지 못하고
-바로 템플릿으로 풀어버리려고 덤벼드는 실수?&lt;/p&gt;
-&lt;p&gt;조건을 잘 읽어보자 조건에서 어떤 값들이 충분히 작은 수일때는
-이유? 힌트가 담겨 있을 수 있다.&lt;/p&gt;
-&lt;p&gt;모든 가능한 조합, 순열을 뽑아내는 연습이 필요하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[자물쇠와 열쇠 아이디어 키를 90도씩 회전하고 Lock을 기준으로 키가 이동 가능한 모든 범위내에서 키가 락을 푸는 지 검사.
-자물쇠 N, 열쇠 M (N >= M) 일때 최소한 한셀 은 겹치도록 하는 범위
-( - (M-1) <= diffx <= N-…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/3/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/3/readme/</guid><content:encoded>&lt;h2&gt;자물쇠와 열쇠&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;키를 90도씩 회전하고 Lock을 기준으로 키가 이동 가능한 모든 범위내에서 키가 락을 푸는 지 검사.
-자물쇠 N, 열쇠 M (N &gt;= M) 일때 최소한 한셀 은 겹치도록 하는 범위
-( - (M-1) &amp;#x3C;= diffx &amp;#x3C;= N-1 )
-( - (M-1) &amp;#x3C;= diffy &amp;#x3C;= N-1 )&lt;/li&gt;
-&lt;li&gt;자바스크립트의 이점? 배열에 저장되지 않은 인덱스를 조회할때, 에러가 아니라 undefined를 반환하는 것을
-적극적으로 활용해서 락을 푸는지 안푸는지 확인하는 코드를 간편하게 작성할 수 있었음&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;키를 90 도 회전시킨 값을 구할때, deep copy하지 않는 실수&lt;/li&gt;
-&lt;li&gt;키로 자물쇠를 푸는 조건을 검사할때 배열의 row 먼저 정의 되어있는지 검사하는 것이 필요&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2019_winter_internship/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2019_winter_internship/1/readme/</guid><content:encoded>&lt;h2&gt;인형뽑기 시뮬레이션 문제&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;인형뽑기 기계 안을 컬럼크기의 배열로 만들고 각 원소를&lt;br&gt;
-스택으로 만든후 스택을 알맞게 인형으로 채우면 크레인 위치에따라 값을 뽑아오기가 매우 편리하다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;풀이 1&lt;/li&gt;
+&lt;li&gt;특정 값 징검다리를 건널수 있는 값을 제한범위 내에서 이진검색 알고리즘으로 찾는다.
+값을 먼저 찍어보고, 그 값을 토대로 그 값보다 작은지 큰지 알아내서 이진 검색 알고리즘으로 값을 좁혀내는 전략&lt;/li&gt;
+&lt;li&gt;풀이 2&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;실수 포인트&lt;/p&gt;
+&lt;p&gt;카카오의 해설 페이지 O(N) 으로 해결해내는 방법도 있다고 하는데, 프로그래머스 내에 그렇게한 코드에 있다.&lt;br&gt;
+그 능력자의 코드를 그대로 복사해서 풀어보았다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;문제를 대충 읽으면, 터지는 횟수가 아니라 터진? 인형 갯수를 반환해야한다.
-터질때 +2를 해주자.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[가사 검색 아이디어 trie라는 자료구조를 써보자 문제점 trie가 뭐지?]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/4/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/4/readme/</guid><content:encoded>&lt;h2&gt;가사 검색&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;trie라는 자료구조를 써보자&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;trie가 뭐지?&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[괄호 변환 아이디어 균형잡힌 괄호열뽑기, (을 +1 )을 -1로 해서 카운터에 더하다 최초로 0이 될때! 나머지는 주어진 신기한 알고리즘에 맞춰 구현 문제점 -]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/2/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/2/readme/</guid><content:encoded>&lt;h2&gt;괄호 변환&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;균형잡힌 괄호열뽑기, (을 +1 )을 -1로 해서 카운터에 더하다 최초로 0이 될때!&lt;/li&gt;
-&lt;li&gt;나머지는 주어진 신기한 알고리즘에 맞춰 구현&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;p&gt;-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문자열 압축해보기 아이디어 문자열을 압축하려는 문자열갯수에 맞춰서 slice 하면서 같은지 안같은지 체크함 같으냐 다르냐에 따라 맞춰서 적절히 카운트함 문제점 while…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/1/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/1/readme/</guid><content:encoded>&lt;h2&gt;문자열 압축해보기&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;문자열을 압축하려는 문자열갯수에 맞춰서 slice 하면서 같은지 안같은지 체크함&lt;/li&gt;
-&lt;li&gt;같으냐 다르냐에 따라 맞춰서 적절히 카운트함&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;while문을 빠져나오고 나서 한번 더 뭔가 체크해줘야할 필요가 있을때가 있다.
-이 경우에는 이전에 카운트하던 카운트값&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/6/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/6/readme/</guid><content:encoded>&lt;h2&gt;외벽 점검&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;뭔가 그리디하게 짧게 풀수 있는 방법을 찾아낼 수 있을것 같아서 고민하고 있으면 안됨&lt;/li&gt;
+&lt;li&gt;배열을 처음부터 끝까지 조회하는데&lt;/li&gt;
+&lt;li&gt;스택에 자기자신 보다 작은 값이 있을때에는 계속 pop한다.&lt;/li&gt;
+&lt;li&gt;이때 스택에 남아있는 것의 index와 자기자신의 index의 차이가 k(징검다리수)차이보다 클때에
+방금 팝한 값을 답과 비교한다. 그래서 작은 값을 답으로 매긴다.&lt;/li&gt;
+&lt;li&gt;그리고 자기 자신을 스택에 넣는다.&lt;/li&gt;
+&lt;li&gt;능력자의 코드를 보고 멘탈모델? 도데체 어떻게 이런 코드가 나올 수 있는지 분석해보았다.
+증명까지는 아니더라도 이게 돌아가는 원리를 파악해보자면,&lt;/li&gt;
+&lt;li&gt;오른쪽 돌로 갈수 있는 최소 값은 왼쪽 돌과 오른쪽돌의 index 차이가 k 이상일때의 중간돌의 값 중 최대값이다.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;역시 조건을 보고 모든 가능한 조합과 순열을 구해서 (순서도 섞어줄 필요가 있다)
-각 해답이 문제를 해결해 내는지 풀어내야 함&lt;/p&gt;
+&lt;p&gt;스택에는 현재의 중간 돌보다 큰 값만 저장되도록 보장한다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;이때 문제의 조건에 맞추어서 시작점도 다 시도해봐야 하는데
-원탁테이블의 길이를 더해서 다시 배열에 넣어주어야 함&lt;/li&gt;
+&lt;li&gt;k 이상이 되는 시점의 중간 돌은 k 이하의 중간돌 중에서 최대값이다.
+조건에 맞게 중간돌의 값중 최대값을 찾는다.&lt;/li&gt;
+&lt;li&gt;k 를 초과했을때에 발견하게 되는 돌들 중에서는 최소값이다.
+답을 min으로 찾기 때문에 더 큰 답이 답이 될 수 없다.&lt;/li&gt;
+&lt;li&gt;오른쪽 돌 입장에서 k 이상일때의 중간돌 중 최대값이므로 현재 중간돌 보다
+작은 값들은 고려할 필요가 없다.
+(현재 중간돌보다 작은 값들은 이전 스텝에서 체크가 된 상황)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;문제점&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;실전에서 과연, 이게 그리디하게 짧게 풀수 없다는 걸 빨리 알아챌 수 있을까?&lt;/li&gt;
-&lt;li&gt;전체 조합과 순열을 뽑아내야 하는데, 해본적 없이 막상 해보려하면 막막할 수 있음..
-전체 순열을 어떻게 뽑지???..&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[기둥 보 설치 시뮬레이션 아이디어 복잡한 조건에 맞추어, 기둥과 보를 설치하고, 삭제하도록 함 문제점 조건이 꽤 복잡하게 주어질때는 먼저 간단한 노트에 정리를 좀 하고
-진정을 한 후 코딩을 시작하자]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/5/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/5/readme/</guid><content:encoded>&lt;h2&gt;기둥 보 설치 시뮬레이션&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;복잡한 조건에 맞추어, 기둥과 보를 설치하고, 삭제하도록 함&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;조건이 꽤 복잡하게 주어질때는 먼저 간단한 노트에 정리를 좀 하고
-진정을 한 후 코딩을 시작하자&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[블록 이동하기 아이디어 각 이동별, 회전별 상태를 체크하고 이동하며 목표점에 도달하자. visited…]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/7/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/7/readme/</guid><content:encoded>&lt;h2&gt;블록 이동하기&lt;/h2&gt;
-&lt;h3&gt;아이디어&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;각 이동별, 회전별 상태를 체크하고 이동하며 목표점에 도달하자.&lt;/li&gt;
-&lt;li&gt;visited를 현재 상태 값에 따라 체크하도록 함&lt;/li&gt;
-&lt;li&gt;각 회전별 체크 점을 최대한 배열에 잘 정리해서 넣어놓고 실수를 방지하자&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;문제점&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;각 회전별 상태를 체크할때, 체크할게 귀찮을정도로 많고 실수가 자주 났다.&lt;/li&gt;
+&lt;li&gt;멘탈모델을 상상하기가 쉽지 않다. (로직을 생각해낸 배경? ) O(N)의 코드는 멘탈모델을
+어떻게 잡고 풀었는지, 푼 사람을 잡고 물어보고 싶은 심정이다.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[읽은 책 제목]]></title><description><![CDATA[reference Data Structure & Algorithms with JavaScript]]></description><link>https://devcheolheon.github.io/javascript/DataSturcture/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/DataSturcture/readme/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기]]></title><description><![CDATA[1. 배경 gatsby로 깨작깨작 열심히 개발블로그를 만들었고 
+이를 깃헙 페이지로 배포하려고 하는 중이었다.  생각없이 블로그를 그대로 따라서 배포했더니 
+현제 래포의 마스터 브랜치를 배포용 파일들이 덮어버리는 일이 일어나고 말았다. 
+(gh…]]></description><link>https://devcheolheon.github.io/javascript/devlog/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/devlog/a/</guid><content:encoded>&lt;h3&gt;1. 배경&lt;/h3&gt;
+&lt;p&gt;gatsby로 깨작깨작 열심히 개발블로그를 만들었고
+이를 깃헙 페이지로 배포하려고 하는 중이었다. &lt;/p&gt;
+&lt;p&gt;생각없이 블로그를 그대로 따라서 배포했더니
+현제 래포의 마스터 브랜치를 배포용 파일들이 덮어버리는 일이 일어나고 말았다.
+(gh-page의 기본작동이 그런것이었다..)&lt;/p&gt;
+&lt;p&gt;소스 관리와 배포용 레포를 분리하고 싶어서 방법을 찾다가 관련해서
+배우게 된 내용들을 정리해 보았다. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;깃헙에 비밀번호 없이 접속하기 위한 ssh사용법&lt;/li&gt;
+&lt;li&gt;다른 레포에 배포하도록 하는 gh-pages의 옵션 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;2. 깃헙에 비밀번호 없이 접속하기 (SSH 사용법)&lt;/h3&gt;
+&lt;p&gt;맥의 경우 기본적으로 ssh key파일들은 아래 디렉터리에 저장되어 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/.ssh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;다음 명령어로 key를 생성하는데 이메일은 깃계정에 등록된 이메일로 하자.
+또한 key의 비밀번호를 설정할 수 있게 되어 있는데 없이 하는것이 편하다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ssh-keygen -t rsa -b &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt; -C &lt;span class=&quot;token string&quot;&gt;&quot;my-email@example.com&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;생성된 파일중에서 .pub로 끝나는 파일의 값을 git &gt; profile &gt; settings &gt; ssh and gps keys 메뉴에서 설정해 준다.
+(값 내용을 복사해서 넣게끔 되어있다.)&lt;/p&gt;
+&lt;p&gt;실수로 ssh key를 생성할때 비밀번호를 등록해주었다면 다음 명령어로 없애줄 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ssh-keygen -p&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ssh key가 있어도 안될때에는,
+내 경우에는 SSH-AGENT에 키를 등록하니 해결이 되었다. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ssh-agent 의 동작 확인&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;ssh-agent -s&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt; ssh-agent 에 key 등록하기 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;3. 다른 레포에 github page 배포하기&lt;/h3&gt;
+&lt;p&gt;배포할때 개인 사이트 또는 특정 레포의 프로젝트 사이트 두 종류를 다른 방법으로 하게 된다. &lt;/p&gt;
+&lt;p&gt;개인 사이트는 [사용자명].github.io 로 레포를 만들어야 되고 package.json에 다음처럼 명령어를 입력해준다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
+    &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;만약, 소스레포와 배포레포가 다르다면 다음 부분에서 계정부분만 잘 변경해서
+package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 ssh설정을 잘 해줄 필요가 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -r git@github.com:soharu/soharu.github.io.git -b master&quot;&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;배포 끝..&lt;/p&gt;
+&lt;h3&gt;출처&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jootc.com/p/201905122827&quot;&gt;ssh 생성 및 github 저장소 저장하기 - JOOTC 블로그 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://goddaehee.tistory.com/254&quot;&gt;Git (7) Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://musma.github.io/2019/08/09/gatsby-js.html&quot;&gt;GatsbyJS 개발 환경 셋팅부터 GitHub Pages 배포까지 (musma 블로그)&lt;/a&gt;
+(배포하려고 할때 시작점이 되어준 고마운 블로그)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://soharu.github.io/posts/2019-09-18-Deploying-to-GitHub-Pages/&quot;&gt;Github Pages로 블로그 배포하기&lt;/a&gt;
+(어쩌다가 배포 레포와 소스 레포를 분리하신 분이고 딱 내가 필요한 과정을 그대로 진행한 블로그)&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[reference JavaScript: The Good Parts]]></description><link>https://devcheolheon.github.io/javascript/thegoodparts/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/thegoodparts/README/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;JavaScript: The Good Parts&lt;/li&gt;
