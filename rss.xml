@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2020 08:02:28 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[알고리즘 테스트 준비용 코딩 테스트 준비과정도 기록해놓자!  약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?]]></description><link>https://devcheolheon.github.io/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/README/</guid><content:encoded>&lt;h1&gt;알고리즘 테스트 준비용&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2020 08:11:15 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[알고리즘 테스트 준비용 코딩 테스트 준비과정도 기록해놓자!  약간의 오답노트 같은 느낌, 깃헙에 이런것도 올리나?]]></description><link>https://devcheolheon.github.io/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/README/</guid><content:encoded>&lt;h1&gt;알고리즘 테스트 준비용&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;코딩 테스트 준비과정도 기록해놓자! &lt;/p&gt;
@@ -182,81 +182,69 @@
 (gh-page의 기본작동이 그런것이었다..)&lt;/p&gt;
 &lt;p&gt;소스 관리와 배포용 레포를 분리하고 싶어서 방법을 찾다가 관련해서
 배우게 된 내용들을 정리해 보았다. &lt;/p&gt;
+&lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;깃헙에 비밀번호 없이 접속하기 위한 ssh사용법&lt;/li&gt;
 &lt;li&gt;다른 레포에 배포하도록 하는 gh-pages의 옵션 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;2. 깃헙에 비밀번호 없이 접속하기 (SSH 사용법)&lt;/h3&gt;
-&lt;p&gt;출처 1  -  &lt;a href=&quot;https://jootc.com/p/201905122827&quot;&gt;ssh 생성 및 github 저장소 저장하기 - JOOTC 블로그 &lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;요약&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
 &lt;p&gt;맥의 경우 기본적으로 ssh는 아래 디렉터리에 저장되어 있다. &lt;/p&gt;
+&lt;blockquote&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/.ssh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;다음 명령어로 key를 생성하는데 이메일은 깃계정에 등록된 이메일로 하자 &lt;/li&gt;
-&lt;li&gt;key의 비밀번호를 또설정할 수 있게 되어 있는데 없이 하는것이 편하다.  &lt;/li&gt;
-&lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;다음 명령어로 key를 생성하는데 이메일은 깃계정에 등록된 이메일로 하자 &lt;/p&gt;
+&lt;p&gt;key의 비밀번호를 또설정할 수 있게 되어 있는데 없이 하는것이 편하다.  &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;   ssh-keygen -t rsa -b 4096 -C “my-email@example.com”&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- 생성된 파일중에서 .pub로 끝나는 파일의 값을 git &amp;gt; profile &amp;gt; settings &amp;gt; ssh and gps keys
- 메뉴에서 설정해 준다. (값 내용을 복사해서 넣게끔 되어있다.)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;   ssh-keygen -t rsa -b &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt; -C &lt;span class=&quot;token string&quot;&gt;&quot;my-email@example.com&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;출처 2 - &lt;a href=&quot;https://goddaehee.tistory.com/254&quot;&gt;Git (7) Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정)&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;요약&lt;/h4&gt;
+&lt;p&gt;생성된 파일중에서 .pub로 끝나는 파일의 값을
+git &gt; profile &gt; settings &gt; ssh and gps keys 메뉴에서
+설정해 준다. (값 내용을 복사해서 넣게끔 되어있다.)&lt;/p&gt;
+&lt;p&gt;실수로 ssh key를 생성할때 비밀번호를 등록해주었다면 다음 명령어로 없애줄 수 있다.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;ssh key에 대한 더 자세한 설명&lt;/li&gt;
-&lt;li&gt;실수로 ssh key를 생성할때 비밀번호를 등록해주었다면 다음 명령어로 없애줄 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; ssh-keygen -p&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;ssh key가 있어도 안되는 경우, 내 경우에는 이 블로그의 SSH-AGENT관련 내용이 큰 도움이 되었다. &lt;/li&gt;
-&lt;li&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ssh key가 있어도 안되는 경우,
+내 경우에는 SSH-AGENT에 키를 등록하니 해결이 되었다. &lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;ssh-agent 의 동작 확인&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;ssh-agent -s&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ssh-agent 에 key 등록하기 &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt; ssh-agent 에 key 등록하기 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;출처 1  -  &lt;a href=&quot;https://jootc.com/p/201905122827&quot;&gt;ssh 생성 및 github 저장소 저장하기 - JOOTC 블로그 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;출처 2 - &lt;a href=&quot;https://goddaehee.tistory.com/254&quot;&gt;Git (7) Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정)&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3. 깃헙에 비밀번호 없이 접속하기 (SSH 사용법)&lt;/h3&gt;
-&lt;p&gt;출처 1. &lt;a href=&quot;https://musma.github.io/2019/08/09/gatsby-js.html&quot;&gt;GatsbyJS 개발 환경 셋팅부터 GitHub Pages 배포까지 (musma 블로그)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(배포하려고 할때 시작점이 되어준 고마운 블로그)&lt;/p&gt;
 &lt;h4&gt;요약&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;배포할때 개인 사이트 또는 특정 레포의 프로젝트 사이트 두 종류를 다른 방법으로 하게 된다. &lt;/li&gt;
-&lt;li&gt;개인 사이트는 [사용자명].github.io 로 레포를 만들어야 되고 &lt;/li&gt;
-&lt;li&gt;package.json에 다음처럼 명령어를 입력해준다. &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;배포할때 개인 사이트 또는 특정 레포의 프로젝트 사이트 두 종류를 다른 방법으로 하게 된다. &lt;/p&gt;
+&lt;p&gt;개인 사이트는 [사용자명].github.io 로 레포를 만들어야 되고
+package.json에 다음처럼 명령어를 입력해준다. &lt;/p&gt;
+&lt;blockquote&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
    &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&quot;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;블로그대로 따라하면 아주 잘 배포가 된다. &lt;/li&gt;
-&lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;출처 2. &lt;a href=&quot;https://soharu.github.io/posts/2019-09-18-Deploying-to-GitHub-Pages/&quot;&gt;Github Pages로 블로그 배포하기&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(어쩌다가 배포 레포와 소스 레포를 분리하신 분이고 딱 내가 필요한 과정을
-그대로 진행한 블로그)&lt;/p&gt;
-&lt;h4&gt;요약&lt;/h4&gt;
+&lt;p&gt;만약, 소스레포와 배포레포가 다르다면
+다음 부분에서 계정부분만 잘 변경해서 package.json을 작성해주면 된다.
+이걸 그대로 실행하기 위해서 ssh설정을 잘 해줄 필요가 있다. &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;다음 부분에서 계정부분만 잘 변경해서 package.json을 작성해주면 된다. &lt;/li&gt;
-&lt;li&gt;이걸 그대로 실행하기 위해서 ssh설정을 잘 해줄 필요가 있다. &lt;/li&gt;
-&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
    &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
        &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -r git@github.com:soharu/soharu.github.io.git -b master&quot;&lt;/span&gt;
  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;배포 끝..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 문자열 압축 괄호변환 자물쇠와 열쇠 가사검색 기둥과 보 설치 외벽점검 블록이동하기 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
+&lt;p&gt;배포 끝..&lt;/p&gt;
+&lt;p&gt;출처 1. &lt;a href=&quot;https://musma.github.io/2019/08/09/gatsby-js.html&quot;&gt;GatsbyJS 개발 환경 셋팅부터 GitHub Pages 배포까지 (musma 블로그)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(배포하려고 할때 시작점이 되어준 고마운 블로그)&lt;/p&gt;
+&lt;p&gt;출처 2. &lt;a href=&quot;https://soharu.github.io/posts/2019-09-18-Deploying-to-GitHub-Pages/&quot;&gt;Github Pages로 블로그 배포하기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(어쩌다가 배포 레포와 소스 레포를 분리하신 분이고 딱 내가 필요한 과정을
+그대로 진행한 블로그)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[문제 목록 문자열 압축 괄호변환 자물쇠와 열쇠 가사검색 기둥과 보 설치 외벽점검 블록이동하기 문제 해설]]></description><link>https://devcheolheon.github.io/kakao/2020_blind/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/kakao/2020_blind/readme/</guid><content:encoded>&lt;h2&gt;문제 목록&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;문자열 압축&lt;/li&gt;
 &lt;li&gt;괄호변환&lt;/li&gt;
