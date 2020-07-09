@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Jul 2020 05:21:31 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/FP/FPinJS/1/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/1/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/store/books/look.php?p_code=B2731337630&quot;&gt;함수형 자바스크립트 - 루이스 아텐시오&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Jul 2020 04:50:34 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/FP/FPinJS/1/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/1/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/store/books/look.php?p_code=B2731337630&quot;&gt;함수형 자바스크립트 - 루이스 아텐시오&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;책을 읽고 요약본을 그대로 올리는것은 왠지 저작권법이 두렵기때문에
 명접 대비용에 알맞게, 면접에 나올만한 키워드 위주로 정리했고 ..&lt;br&gt;
 그 부분은 아래 목차에 표시를 하려고 한다. &lt;/p&gt;
@@ -56,7 +56,28 @@
 &lt;p&gt;재귀는 주어진 문제를 자기 반복적인 문제들로 잘게 분해한 다음, 이들을 다시 조합해 원래 문제의 정답을 찾는 기법입니다.&lt;/p&gt;
 &lt;p&gt;기저 케이스 - base case
 재귀 케이스 - recursive case&lt;/p&gt;
-&lt;p&gt;입력 집합이 최초 입력 집합보다 점점 작아져야 합니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CHAPTER 1 - 함수형 길들이기]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/FP/FPinJS/2/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/2/</guid><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;입력 집합이 최초 입력 집합보다 점점 작아져야 합니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;책을 샀기 때문에 아까워서라도 열심히 읽은 책이지만,
+정말 예제 하나하나 제대로 돌아가는 코드가 없다.
+(예상해보자면,, 다른 언어로 작성된 코드를 자바스크립트에 에러만 안날정도로만 맞춰놓은 것 아닐까..)
+그래도 목차에 따라 면접을 준비해보자.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;목차
+CHAPTER 1 자바스크립트 프로그래밍 환경과 모델
+CHAPTER 2 배열
+CHAPTER 3 리스트
+CHAPTER 4 스택
+CHAPTER 5 큐
+CHAPTER 6 연결 리스트
+CHAPTER 7 딕셔너리
+CHAPTER 8 해싱
+CHAPTER 9 집합
+CHAPTER 10 이진 트리와 이진 검색 트리
+CHAPTER 11 그래프와 그래프 알고리즘
+CHAPTER 12 정렬 알고리즘
+CHAPTER 13 검색 알고리즘
+CHAPTER 14 고급 알고리즘&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[CHAPTER 1 - 함수형 길들이기]]></title><description><![CDATA[…]]></description><link>https://devcheolheon.github.io/FP/FPinJS/2/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/2/</guid><content:encoded>&lt;blockquote&gt;
 &lt;h3&gt;결론, 함수형 프로그래밍은&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;외부에서 관찰 가능한 부수효과가 제거된 불변 프로그램을 작성하기 위해 순수함수를 선언적으로 평가하는 것입니다.&lt;/li&gt;
