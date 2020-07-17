@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 07:43:49 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 08:48:04 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;책을 샀기 때문에 아까워서라도 열심히 읽은 책이지만,
 정말 예제 하나하나 제대로 돌아가는 코드가 없다.
 (예상해보자면,, 다른 언어로 작성된 코드를 자바스크립트에 에러만 안날정도로만 맞춰놓은 것 아닐까..)
@@ -111,8 +111,10 @@ CHAPTER 14 고급 알고리즘&lt;/p&gt;
 &lt;li&gt;(참조 투명성은 순수함수를 정의하는 좀 더 공식적인 방법)&lt;/li&gt;
 &lt;li&gt;어떤 함수가 동일한 입력을 받았을 때 동일한 결과를 내면 참조 투명한 함수&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[CHAPTER 2 - 고계 자바스크립트]]></title><description><![CDATA[객체지향과 함수형을 혼합한 하이브리드 언어인 자바스크립트를 빠르게 둘러봅니다.
-(언어 자체로 불변성 지원 못함) 2.1 왜 자바스크립트인가? 웹 세상을 대표하는 맹주 언어 2.…]]></description><link>https://devcheolheon.github.io/FP/FPinJS/3/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/3/</guid><content:encoded>&lt;p&gt;객체지향과 함수형을 혼합한 하이브리드 언어인 자바스크립트를 빠르게 둘러봅니다.
+(언어 자체로 불변성 지원 못함) 2.1 왜 자바스크립트인가? 웹 세상을 대표하는 맹주 언어 2.…]]></description><link>https://devcheolheon.github.io/FP/FPinJS/3/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/3/</guid><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;객체지향과 함수형을 혼합한 하이브리드 언어인 자바스크립트를 빠르게 둘러봅니다.
 (언어 자체로 불변성 지원 못함)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;2.1 왜 자바스크립트인가?&lt;/h3&gt;
 &lt;p&gt;웹 세상을 대표하는 맹주 언어&lt;/p&gt;
 &lt;h3&gt;2.2.함수형 대 객체지향 프로그래밍&lt;/h3&gt;
@@ -481,10 +483,10 @@ Maybe&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 getJson(url)을 getJson(db) 으로 쉽게 바꿀 수 있고 코드는 정확히 작동합니다.&lt;/p&gt;
 &lt;p&gt;이런 수준의 유연성을 위치 투명성(location transperancy)라고 합니다.&lt;/p&gt;
 &lt;p&gt;점수를 조회하는 작업을 직렬화하지 않고 동시에 진행할 수 있습니다.
-Promise.all 이를 이용하면 한 번에 여러 데이터를 내려받는 브라우져의 능력을 극대화 할 수 있습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[APPENDIX]]></title><description><![CDATA[로대시 JS (lodash) 과거 널리 사용되었던 언더스코어 API를 따라가고 있다, 성능 개선판 람다 JS (ramda) 자동 커링을 지원하며 속성 렌즈 기능도 있다.]]></description><link>https://devcheolheon.github.io/FP/FPinJS/9/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/9/</guid><content:encoded>&lt;h3&gt;로대시 JS (lodash)&lt;/h3&gt;
-&lt;p&gt;과거 널리 사용되었던 언더스코어 API를 따라가고 있다, 성능 개선판&lt;/p&gt;
+Promise.all 이를 이용하면 한 번에 여러 데이터를 내려받는 브라우져의 능력을 극대화 할 수 있습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[APPENDIX]]></title><description><![CDATA[로대시 JS (lodash) 과거 널리 사용되었던 언더스코어 API를 따라가고 있다, 성능 개선판   람다 JS (ramda) 자동 커링을 지원하며 속성 렌즈 기능도 있다.]]></description><link>https://devcheolheon.github.io/FP/FPinJS/9/</link><guid isPermaLink="false">https://devcheolheon.github.io/FP/FPinJS/9/</guid><content:encoded>&lt;h3&gt;로대시 JS (lodash)&lt;/h3&gt;
+&lt;p&gt;과거 널리 사용되었던 언더스코어 API를 따라가고 있다, 성능 개선판  &lt;/p&gt;
 &lt;h3&gt;람다 JS (ramda)&lt;/h3&gt;
-&lt;p&gt;자동 커링을 지원하며 속성 렌즈 기능도 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[읽은 책 제목]]></title><description><![CDATA[reference Data Structure & Algorithms with JavaScript]]></description><link>https://devcheolheon.github.io/javascript/DataSturcture/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/DataSturcture/readme/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
+&lt;p&gt;자동 커링을 지원하며 속성 렌즈 기능도 있다.  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[읽은 책 제목]]></title><description><![CDATA[reference Data Structure & Algorithms with JavaScript]]></description><link>https://devcheolheon.github.io/javascript/DataSturcture/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/DataSturcture/readme/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기]]></title><description><![CDATA[1. 배경 gatsby로 깨작깨작 열심히 개발블로그를 만들었고 
