@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Oct 2020 06:27:15 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Oct 2020 13:20:54 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;책을 샀기 때문에 아까워서라도 열심히 읽은 책이지만,
 정말 예제 하나하나 제대로 돌아가는 코드가 없다.
 (예상해보자면,, 다른 언어로 작성된 코드를 자바스크립트에 에러만 안날정도로만 맞춰놓은 것 아닐까..)
@@ -749,13 +749,10 @@ article요소를 사용하도록 정의하고 있다. &lt;/p&gt;
 &lt;li&gt;(HTML5 브라우저 제작자를 위한 정보)[http://bkaprt.com/html52e/07-08/]&lt;/li&gt;
 &lt;li&gt;(svg자료들)[http://bkaprt.com/html52e/07-09/]&lt;/li&gt;
 &lt;li&gt;(webVTT)[http://bkaprt.com/html52e/07-10/]&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[읽은 책 제목]]></title><description><![CDATA[reference Data Structure & Algorithms with JavaScript]]></description><link>https://devcheolheon.github.io/javascript/DataSturcture/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/DataSturcture/readme/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기]]></title><description><![CDATA[1. 배경 gatsby로 깨작깨작 열심히 개발블로그를 만들었고 
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기 (1)]]></title><description><![CDATA[1. 배경 gatsby로 깨작깨작 열심히 개발블로그를 만들었고 
 이를 깃헙 페이지로 배포하려고 하는 중이었다.  생각없이 블로그를 그대로 따라서 배포했더니 
 현제 래포의 마스터 브랜치를 배포용 파일들이 덮어버리는 일이 일어나고 말았다. 
-(gh…]]></description><link>https://devcheolheon.github.io/javascript/devlog/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/devlog/a/</guid><content:encoded>&lt;h3&gt;1. 배경&lt;/h3&gt;
+(gh…]]></description><link>https://devcheolheon.github.io/devlog/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/devlog/a/</guid><content:encoded>&lt;h3&gt;1. 배경&lt;/h3&gt;
 &lt;p&gt;gatsby로 깨작깨작 열심히 개발블로그를 만들었고
 이를 깃헙 페이지로 배포하려고 하는 중이었다. &lt;/p&gt;
 &lt;p&gt;생각없이 블로그를 그대로 따라서 배포했더니
@@ -811,14 +808,6 @@ package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 
 (배포하려고 할때 시작점이 되어준 고마운 블로그)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://soharu.github.io/posts/2019-09-18-Deploying-to-GitHub-Pages/&quot;&gt;Github Pages로 블로그 배포하기&lt;/a&gt;
 (어쩌다가 배포 레포와 소스 레포를 분리하신 분이고 딱 내가 필요한 과정을 그대로 진행한 블로그)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[reference JavaScript: The Good Parts]]></description><link>https://devcheolheon.github.io/javascript/thegoodparts/README/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/thegoodparts/README/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;JavaScript: The Good Parts&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[reference You don’t know JS - 타입과 문법, 스코프와 클로져 You don’t know JS - this와 객체 프로토타입, 비동기와 성능 https://github.com/getify/You-Dont-Know-JS]]></description><link>https://devcheolheon.github.io/javascript/youdontknowjs/readme/</link><guid isPermaLink="false">https://devcheolheon.github.io/javascript/youdontknowjs/readme/</guid><content:encoded>&lt;h2&gt;reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;You don’t know JS - 타입과 문법, 스코프와 클로져&lt;/li&gt;
-&lt;li&gt;You don’t know JS - this와 객체 프로토타입, 비동기와 성능&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS&quot;&gt;https://github.com/getify/You-Dont-Know-JS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://devcheolheon.github.io/new-beginnings/</link><guid isPermaLink="false">https://devcheolheon.github.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
