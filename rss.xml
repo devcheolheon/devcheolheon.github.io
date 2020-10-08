@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Oct 2020 13:34:17 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 08 Oct 2020 07:14:02 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;책을 샀기 때문에 아까워서라도 열심히 읽은 책이지만,
 정말 예제 하나하나 제대로 돌아가는 코드가 없다.
 (예상해보자면,, 다른 언어로 작성된 코드를 자바스크립트에 에러만 안날정도로만 맞춰놓은 것 아닐까..)
@@ -555,21 +555,19 @@ W3C의 HTML 워킹 그룹은 이 명세를 받아서 ‘먼저 리뷰한 후 추
 그리고 구현하는 사람보다는 개발자를 또한 개발자보다는 사용자를 고려하라&lt;/p&gt;
 &lt;h3&gt;DOCTYPE&lt;/h3&gt;
 &lt;p&gt;문서 형식선언은 보통 웹 문서가 어떤 마크업 언어 형식으로 작성되었는지를 명시하는데 사용됩니다. &lt;/p&gt;
-&lt;p&gt;&apos;&apos;&apos;html&lt;/p&gt;
-&lt;!DOCTYPE html&gt;
-&lt;p&gt;HTML 4.01 -&gt; &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot; ....&quot; &gt;
-XHTML 1.0 -&gt; &lt;!DOCTYPE html public &quot;.... &quot; &gt;
-&apos;&apos;&apos;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&amp;lt;!DOCTYPE html&gt;&lt;/span&gt;
+HTML 4.01 -&gt; &lt;span class=&quot;token doctype&quot;&gt;&amp;lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot; ....&quot; &gt;&lt;/span&gt;
+XHTML 1.0 -&gt; &lt;span class=&quot;token doctype&quot;&gt;&amp;lt;!DOCTYPE html public &quot;.... &quot; &gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;기존 콘텐츠를 계속 지원하며 (이전 버젼 문서의 doctype을 지원)
 이후의 html 버전 또한 지원해야 하기 때문에 버젼번호가 제외된 최소한의 코드임  &lt;/p&gt;
 &lt;p&gt;웹문서를 표준으로 렌더링하기 위한 최소한의 정보로 이것을 제외해도 여전히 유효한 HTML5 문서가 될 수 있다. &lt;/p&gt;
 &lt;h3&gt;META&lt;/h3&gt;
 &lt;p&gt;문자 인코딩을 명시하는  meta 태그가 단순화됨&lt;/p&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;UTF-8&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;javascript css 링크 태그도 단순화됨&lt;/p&gt;
-&lt;script src=&quot;file.js&quot;&gt;&lt;/script&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;file.css&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;file.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;stylesheet&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;file.css&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;퇴화된 요소&lt;/h3&gt;
 &lt;p&gt;HTML5에서는 사용중지된 요소나 속성은 없다. 퇴화와 사용중지 사이에 미묘한 차이가 있습니다.
@@ -593,11 +591,9 @@ i &gt; ‘다른 분위기나 목소리를 가진다’&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a 요소 안에 a를 제외한 다른 요소를 넣을 수 있게 되었다. &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&apos;&apos;&apos;html
-&lt;a href = &quot;/about&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;aaaaa&lt;/h2&gt;
-&lt;/a&gt;
-&apos;&apos;&apos;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt; &lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/about&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;aaaaa&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;고쳐서 나빠진 cite&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;저자는 cite라는 요소에 이름을 적는 것을 지지함 (WHATWG는 제한, W3C는 허용)&lt;/li&gt;
@@ -605,19 +601,16 @@ i &gt; ‘다른 분위기나 목소리를 가진다’&lt;/p&gt;
 &lt;p&gt;자바스크립트 API &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;HTML5는 자바스크립트 API를 완전히 문서화함 &lt;/li&gt;
-&lt;li&gt;HTML5의 API는 아주 강력합니다. ([HTML5 API demos](http://bkaprt.com/html52e/02-04/))&lt;/li&gt;
+&lt;li&gt;HTML5의 API는 아주 강력합니다. (&lt;a href=&quot;http://bkaprt.com/html52e/02-04/&quot;&gt;HTML5 API demos&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[CHAPTER 3 - 리치 미디어]]></title><description><![CDATA[반응형 이미지 picture, srcset요소를 통해 반응형 이미지를 만들 수 있다.  기존의 문제점, 모든 기기에서 같은 이미지를 다운로드한다. 
-두번째 문제점, 기기에 따라 크기와 형식이 맞지 않을 수 있다. '''html
- css…]]></description><link>https://devcheolheon.github.io/HTML/HTML5fWD/4/</link><guid isPermaLink="false">https://devcheolheon.github.io/HTML/HTML5fWD/4/</guid><content:encoded>&lt;h2&gt;반응형 이미지&lt;/h2&gt;
+두번째 문제점, 기기에 따라 크기와 형식이 맞지 않을 수 있다. css…]]></description><link>https://devcheolheon.github.io/HTML/HTML5fWD/4/</link><guid isPermaLink="false">https://devcheolheon.github.io/HTML/HTML5fWD/4/</guid><content:encoded>&lt;h2&gt;반응형 이미지&lt;/h2&gt;
 &lt;p&gt;picture, srcset요소를 통해 반응형 이미지를 만들 수 있다. &lt;/p&gt;
 &lt;p&gt;기존의 문제점, 모든 기기에서 같은 이미지를 다운로드한다.
 두번째 문제점, 기기에 따라 크기와 형식이 맞지 않을 수 있다.&lt;/p&gt;
-&lt;p&gt;&apos;&apos;&apos;html
-&lt;picture&gt;&lt;/p&gt;
-  &lt;source media=&quot;(min-width: 1024px)&quot; srcset=&quot;fullsize.jpg&quot;&gt;
-  &lt;img src=&quot;crop.jpg&quot; alt=&quot;myImage&quot;&gt;
-&lt;/picture&gt;
-&apos;&apos;&apos;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;picture&amp;gt;
+  &amp;lt;source media=&amp;quot;(min-width: 1024px)&amp;quot; srcset=&amp;quot;fullsize.jpg&amp;quot;&amp;gt;
+  &amp;lt;img src=&amp;quot;crop.jpg&amp;quot; alt=&amp;quot;myImage&amp;quot;&amp;gt;
+&amp;lt;/picture&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;css에서 미디어 쿼리를 지정해주는 방법과 동일하다.
 picture를 지원하지 않는 브라우져에서는 마지막 img 요소가 출력된다.&lt;/p&gt;
 &lt;p&gt;srcset요소를 활용하면 화면에 해상도에 따라, 또는 크기에 따라 다르게 출력될 수 있다. &lt;/p&gt;
@@ -631,15 +624,11 @@ picture를 지원하지 않는 브라우져에서는 마지막 img 요소가 출
 canvas와 달리 벡터방식이고, xml을 이용하므로 보다 더 읽기 쉽다. &lt;/p&gt;
 &lt;h2&gt;오디오&lt;/h2&gt;
 &lt;p&gt;자동으로 재생되는 오디오 파일을 삽입하는 것은 무례하고 어리석은 일이다. &lt;/p&gt;
-&lt;p&gt;&apos;&apos;&apos;html
-&lt;audio src=&quot;aaa.mp3&quot; autoplay&gt;
-&lt;audio src=&quot;aaa.mp3&quot; autoplay loop&gt;
-&apos;&apos;&apos;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;audio&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;aaa.mp3&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;autoplay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;audio&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;aaa.mp3&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;autoplay&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;버퍼링 &lt;/p&gt;
 &lt;p&gt;autobuffer 속성은 preload속성으로 대체되었다.&lt;/p&gt;
-&lt;p&gt;&apos;&apos;&apos;
-&lt;audio src=&quot;aaa.mp3&quot; controls preload=&quot;none&quot;&gt;
-&apos;&apos;&apos;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;audio&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;aaa.mp3&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;controls&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;preload&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;파일 형식&lt;/p&gt;
 &lt;p&gt;파일 형식별로 브라우져에 지원현황이 다를 수 있다.
 각 브라우져에 맞게 지원하는 파일 형식의 파일을 다운로드 할 수 있도록 하려면
@@ -730,15 +719,9 @@ article요소를 사용하도록 정의하고 있다. &lt;/p&gt;
 &lt;p&gt;blockquote, fieldset, td 요소들이 이런 아웃라인 알고리즘에 포함되지 않는다&lt;/p&gt;
 &lt;p&gt;이들을 섹션화루트라고 부른다.&lt;/p&gt;
 &lt;h4&gt;이식성&lt;/h4&gt;
-&lt;style scoped&gt; scoped 속성을 이용하면, 그 style요소를 포함하는 
-영역의 콘텐츠에만 해당 스타일이 적용된다. 
-
-
-
-
-
-
-</content:encoded></item><item><title><![CDATA[CHAPTER 6 - 지금 HTML5를 사용하려면]]></title><description><![CDATA[(HTML5사용에 대한 훌륭한 글들)http://bkaprt.com/html52e/07-01/ (브루스 로슨의 생각들)http://bkaprt.com/html52e/07-02/ (HTML5 doctor)http://bkaprt.com/html52e…]]></description><link>https://devcheolheon.github.io/HTML/HTML5fWD/7/</link><guid isPermaLink="false">https://devcheolheon.github.io/HTML/HTML5fWD/7/</guid><content:encoded>&lt;ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;scoped&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; scoped 속성을 이용하면, 그 style요소를 포함하는
+영역의 콘텐츠에만 해당 스타일이 적용된다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[CHAPTER 6 - 지금 HTML5를 사용하려면]]></title><description><![CDATA[(HTML5사용에 대한 훌륭한 글들)http://bkaprt.com/html52e/07-01/ (브루스 로슨의 생각들)http://bkaprt.com/html52e/07-02/ (HTML5 doctor)http://bkaprt.com/html52e…]]></description><link>https://devcheolheon.github.io/HTML/HTML5fWD/7/</link><guid isPermaLink="false">https://devcheolheon.github.io/HTML/HTML5fWD/7/</guid><content:encoded>&lt;ul&gt;
 &lt;li&gt;(HTML5사용에 대한 훌륭한 글들)[http://bkaprt.com/html52e/07-01/]&lt;/li&gt;
 &lt;li&gt;(브루스 로슨의 생각들)[http://bkaprt.com/html52e/07-02/]&lt;/li&gt;
 &lt;li&gt;(HTML5 doctor)[http://bkaprt.com/html52e/07-03/]&lt;/li&gt;
