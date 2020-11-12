@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 12 Nov 2020 05:28:38 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DEV LOGS]]></title><description><![CDATA[신철헌의 공부한 것들 및 포토폴리오 등등을 올릴 페이지]]></description><link>https://devcheolheon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 12 Nov 2020 08:33:27 GMT</lastBuildDate><item><title><![CDATA[목차]]></title><description><![CDATA[Data Structure & Algorithms with JavaScript…]]></description><link>https://devcheolheon.github.io/DS/DS_AwithJS/a/</link><guid isPermaLink="false">https://devcheolheon.github.io/DS/DS_AwithJS/a/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.hanbit.co.kr/academy/books/book_view.html?p_code=B2390126256&quot;&gt;Data Structure &amp;#x26; Algorithms with JavaScript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;책을 샀기 때문에 아까워서라도 열심히 읽은 책이지만,
 정말 예제 하나하나 제대로 돌아가는 코드가 없다.
 (예상해보자면,, 다른 언어로 작성된 코드를 자바스크립트에 에러만 안날정도로만 맞춰놓은 것 아닐까..)
@@ -1636,6 +1636,149 @@ package.json을 작성해주면 된다. 이걸 그대로 실행하기 위해서 
 (배포하려고 할때 시작점이 되어준 고마운 블로그)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://soharu.github.io/posts/2019-09-18-Deploying-to-GitHub-Pages/&quot;&gt;Github Pages로 블로그 배포하기&lt;/a&gt;
 (어쩌다가 배포 레포와 소스 레포를 분리하신 분이고 딱 내가 필요한 과정을 그대로 진행한 블로그)&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[gatsby로 제작한 블로그 배포하기 (2)]]></title><description><![CDATA[1. 배경 (1)에서는 레포를 로컬로 받아서 배포하는데까지였고
+BIR, TIL레포의 변경에 맞춰 자동으로 블로그가 배포되도록 하는 방법을 찾다가
+깃헙 액션을 사용하게 되었다. 깃헙 액션에서는 자신이 속한 레포지토리에 push…]]></description><link>https://devcheolheon.github.io/devlog/b/</link><guid isPermaLink="false">https://devcheolheon.github.io/devlog/b/</guid><content:encoded>&lt;h3&gt;1. 배경&lt;/h3&gt;
+&lt;p&gt;(1)에서는 레포를 로컬로 받아서 배포하는데까지였고
+BIR, TIL레포의 변경에 맞춰 자동으로 블로그가 배포되도록 하는 방법을 찾다가
+깃헙 액션을 사용하게 되었다.&lt;/p&gt;
+&lt;p&gt;깃헙 액션에서는 자신이 속한 레포지토리에 push등의 이벤트를 감시하다가
+발생할 경우 다른 레포지토리에 액션을 트리거링하도록 할 수 있다. &lt;/p&gt;
+&lt;p&gt;이와 관련한 깊은 이해는 없는 듯하지만 일단 시도는 성공했기 때문에
+진행하며 배운것을 정리해 보았다. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;github action &lt;/li&gt;
+&lt;li&gt;github 권한 관리 &lt;/li&gt;
+&lt;li&gt;다른 레포지토리로 액션을 트리거하기   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;2. github action&lt;/h3&gt;
+&lt;p&gt;깃헙 액션은 깃헙에서 제공해주는 CI/CD도구이다.&lt;br&gt;
+깃헙 액션에 대한 자세한 사항은 여기 블로그 글을 참고하면 좋을 것 같다.
+기본적으로 용어들이 workflow 나 action등등이 CI와 관련한 용어들인거 같고, 이 부분은
+역시 이쪽에 관심이 많은 분이 작성해주신 글이 훨씬 좋을 것이다.&lt;br&gt;
+&lt;a href=&quot;https://jonnung.dev/devops/2020/01/31/github_action_getting_started/&quot;&gt;Github Action 빠르게 시작하기&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;어쨋건 내가 이해한 단순버젼으로 설명하고 넘어가자면,
+내가 관심이 있는 이벤트에 workflow를 실행하도록 할 수 있고
+workflow는 깃헙에서 미니 서버 인스턴스를 생성하고 세팅해줘서 실행이 된다.
+workflow는 여러개의 action으로 구성이 된다. action은 직접 만들거나 github마켓 플레이스에서
+가져다 쓸 수 있는데 &lt;/p&gt;
+&lt;p&gt;내가 이번 작업을 하면서 가져다 쓴 action들은 다음과 같다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;webfactory/ssh-agent@v0.2.0&lt;/li&gt;
+&lt;li&gt;actions/checkout@v2.3.1&lt;/li&gt;
+&lt;li&gt;JamesIves/github-pages-deploy-action@3.5.7  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이름에서 알 수 있듯이 각 액션들은 ssh를 설정하고,
+깃헙에서 코드를 체크아웃하고, github-page에 디폴로이 하는 액션을 수행하는 일을 한다.
+이런 기능들을 하나하나 직접 개발해야 되지 않아서 다행이다.  &lt;/p&gt;
+&lt;p&gt;그래서 devlog 레포에 달아놓은 workflow는 다음과 같다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This is a basic workflow to help you get started with Actions&lt;/span&gt;
+
+name: CI
+
+&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. Triggers the workflow on push or pull request&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# events but only for the master branch&lt;/span&gt;
+on:
+  push:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; deploy &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  
+  repository_dispatch:
+    types:
+      - deploy
+
+jobs:
+&lt;span class=&quot;token comment&quot;&gt;# A workflow run is made up of one or more jobs that can run sequentially or in parallel&lt;/span&gt;
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install SSH Client 🔑
+        uses: webfactory/ssh-agent@v0.2.0
+        with:
+              ssh-private-key: &lt;span class=&quot;token variable&quot;&gt;${{ secrets.DEPLOY_GATSBY_SECRET }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1 &lt;span class=&quot;token comment&quot;&gt;# If you&apos;re using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.&lt;/span&gt;
+        with:
+          persist-credentials: &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+
+      - name: Install and Build 🔧 &lt;span class=&quot;token comment&quot;&gt;# This example project is built using npm and outputs the result to the &apos;build&apos; folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.&lt;/span&gt;
+        run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.5.7
+        with:
+          SSH: &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+          REPOSITORY_NAME &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; devcheolheon/devcheolheon.github.io 
+          BRANCH: master &lt;span class=&quot;token comment&quot;&gt;# The branch the action should deploy to.&lt;/span&gt;
+          FOLDER: public &lt;span class=&quot;token comment&quot;&gt;# The folder the action should deploy.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;on 밑에 부분에서 deploy 브랜치에 push와 deploy라는 액션을 기다리고 있다는 것을 알 수 있다.
+또한 ssh의 private key를 설정해주고 있는데 이는 devcheolheon.github.io 이 레포지토리에
+push를 해줄 수 있는 권한을 가진 키다. &lt;/p&gt;
+&lt;h3&gt;2. github 권한관리&lt;/h3&gt;
+&lt;p&gt;github에서 배경에서 설명한 것과 같은 일을 하기 위해서는 코드보다 github에서의 어떤
+권한을 관리하는 방법에 대해서 좀 알아야 할 필요가 있었다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 레포에 push하는 권한 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;github-page에서 빌드된 코드를 레포에 올리기위해서 특정 레포에 push해야 하는데
+이때 특정 레포에 대한 deploy 권한이 있어야 한다. &lt;/p&gt;
+&lt;p&gt;deploy 권한은 특정 레포에 Deploy key를 세팅함으로서 부여할 수 있다.
+특정 레포에 Settings &gt; Deploy key에 내가 생성한 ssh key의 public key를 더해놓는다면
+해당 public key에 대응하는 private key를 지닌 사용자가 deploy할 수 있다.&lt;br&gt;
+&lt;a href=&quot;https://developer.github.com/v3/guides/managing-deploy-keys/&quot;&gt;deploy키 관련한 github 매뉴얼 &lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;위에서 devlog 레포의 workflow는 devcheolheon.github.io라는 레포에 배포를 하려고 시도한다.
+devcheolheon.github.io레포의 deploy key에 내 public key가 있어야 하고
+배포를 시도한 devlog 레포의 workflow는 그에 대응되는 private key가 있어야 한다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;              ssh-private-key: &lt;span class=&quot;token variable&quot;&gt;${{ secrets.DEPLOY_GATSBY_SECRET }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;workflow에서 ssh를 설정하는 부분에 다음과 같이 미리 설정해놓은 private key를 가져오는 코드가 있다.
+private key를 workflow에서 활용하기 위해 secrets라는 깃헙의 세팅을 활용할 수 있다.&lt;br&gt;
+이것은 workflow를 실행한 devlog 레포에 설정해 주어야 한다.&lt;br&gt;
+&lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets&quot;&gt;secrets 변수 세팅과 관련한 github 매뉴얼 &lt;/a&gt;  &lt;/p&gt;
+&lt;h3&gt;3. 다른 레포지토리로 액션을 트리거하기&lt;/h3&gt;
+&lt;p&gt;workflow는 다른 레포지토리에서 어떤 액션이 발생하게 끔 할 수 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;  repository_dispatch:
+    types:
+      - deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위의 워크플로우에서 이 부분인데 다른 레포지토리에서 ‘deploy’라는 액션을 현재 레포로
+디스패치할 수 있다. &lt;/p&gt;
+&lt;p&gt;다른 레포지토리에서 ‘deploy’ 액션을 현재 레포로 디스패치하는 부분은 다음과 같다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;    name: CI
+
+&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. Triggers the workflow on push or pull request&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# events but only for the master branch&lt;/span&gt;
+on:
+  push:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; deploy &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+ 
+&lt;span class=&quot;token comment&quot;&gt;# A workflow run is made up of one or more jobs that can run sequentially or in parallel&lt;/span&gt;
+jobs:
+  &lt;span class=&quot;token comment&quot;&gt;# This workflow contains a single job called &quot;build&quot;&lt;/span&gt;
+  build-gatsby-blog:
+    &lt;span class=&quot;token comment&quot;&gt;# The type of runner that the job will run on&lt;/span&gt;
+    runs-on: ubuntu-latest
+
+    &lt;span class=&quot;token comment&quot;&gt;# Steps represent a sequence of tasks that will be executed as part of the job&lt;/span&gt;
+    steps:
+    &lt;span class=&quot;token comment&quot;&gt;# Runs a single command using the runners shell&lt;/span&gt;
+    - name: dispatch to deploy
+      run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -XPOST -u &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${{ secrets.PAT_USERNAME}&lt;/span&gt;}:&lt;span class=&quot;token variable&quot;&gt;${{secrets.PAT_TOKEN}&lt;/span&gt;}&quot;&lt;/span&gt; -H &lt;span class=&quot;token string&quot;&gt;&quot;Accept: application/vnd.github.everest-preview+json&quot;&lt;/span&gt; -H &lt;span class=&quot;token string&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; https://api.github.com/repos/devcheolheon/devlog/dispatches --data &lt;span class=&quot;token string&quot;&gt;&apos;{&quot;event_type&quot;: &quot;deploy&quot;}&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token&quot;&gt; 깃헙에서 Personal access tokens를 설정하기 &lt;/a&gt;
+을 참고했다.  &lt;/p&gt;
+&lt;p&gt;디스패치를 하기 위해서는 Personal access tokens가 필요하다  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;    &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -XPOST -u &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${{ secrets.PAT_USERNAME}&lt;/span&gt;}:&lt;span class=&quot;token variable&quot;&gt;${{secrets.PAT_TOKEN}&lt;/span&gt;}&quot;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 부분에서 username 은 깃헙 계정으로 그리고 token에는 Personal access tokens를 생성해서
+사용해야 한다. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token&quot;&gt; 깃헙에서 Personal access tokens를 설정하기 &lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;이것을 매뉴얼대로 그대로 따라하면 된다.  &lt;/p&gt;
+&lt;h3&gt;출처&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.community/t/triggering-by-other-repository/16163&quot;&gt; 깃헙 액션으로 다른 레포지토리에 액션 트리거링하기 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.github.com/v3/guides/managing-deploy-keys/&quot;&gt; deploy키 관련한 github 매뉴얼 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets&quot;&gt; secrets 변수 세팅과 관련한 github 매뉴얼 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token&quot;&gt; 깃헙에서 Personal access tokens를 설정하기 &lt;/a&gt;  &lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://devcheolheon.github.io/new-beginnings/</link><guid isPermaLink="false">https://devcheolheon.github.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
